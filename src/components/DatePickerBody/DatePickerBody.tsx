@@ -30,6 +30,7 @@ export const DatePickerBody: FC<DatePickerBodyProps> = ({
       0
     ).getDate();
     const tempDateList = [];
+    // 為了在該行補滿上個月的最後幾天
     for (let i = firstDay - 1; i > 0; i--) {
       tempDateList.push(
         new Date(
@@ -44,6 +45,7 @@ export const DatePickerBody: FC<DatePickerBodyProps> = ({
         new Date(headerChosenDate.getFullYear(), headerChosenDate.getMonth(), i)
       );
     }
+    // 為了在該行補滿下個月的前幾天
     for (let i = 1; i <= 7 - lastDay; i++) {
       tempDateList.push(
         new Date(
