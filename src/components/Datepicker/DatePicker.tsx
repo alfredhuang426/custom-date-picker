@@ -1,7 +1,6 @@
 import { Dispatch, FC, SetStateAction, useState } from "react";
 import styles from "./DatePicker.module.css";
 import { DatePickerHeader } from "../DatePickerHeader/DatePickerHeader";
-import { subMonths } from "date-fns";
 import { DatePickerBody } from "../DatePickerBody/DatePickerBody";
 
 type DatePickerProps = {

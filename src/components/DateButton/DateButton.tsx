@@ -1,6 +1,6 @@
 import { Dispatch, FC, SetStateAction } from "react";
 import styles from "./DateButton.module.css";
-import { compareAsc, isThisMonth, isToday } from "date-fns";
+import { compareAsc, isToday } from "date-fns";
 
 type DateButtonProps = {
   headerChosenDate: Date;
