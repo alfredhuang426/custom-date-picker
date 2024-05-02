@@ -1,0 +1,4 @@
+.date-picker-body {
+  display: flex;
+  flex-wrap: wrap;
+}

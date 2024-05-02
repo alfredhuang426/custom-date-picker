@@ -1,0 +1,29 @@
+.button {
+  width: 50px;
+  height: 36px;
+  border: 0;
+  background-color: white;
+}
+
+.button:hover {
+  background-color: #e6e6e6;
+}
+
+.is-today {
+  background-color: #ffff76;
+}
+
+.non-current-month {
+  color: #757575;
+}
+
+.active {
+  background-color: #006edc;
+  color: white;
+}
+
+.active:hover {
+  background-color: #006edc;
+  color: white;
+}
+
